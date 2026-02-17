@@ -460,4 +460,10 @@ footer a:hover {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  img[src*="bolt.png"] {
+    display: none !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

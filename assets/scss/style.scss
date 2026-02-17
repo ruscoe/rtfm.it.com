@@ -509,3 +509,10 @@ footer {
   max-width: 600px;
   margin: 0 auto;
 }
+
+// Mobile utilities
+@media (max-width: $tablet) {
+  img[src*="bolt.png"] {
+    display: none !important;
+  }
+}
