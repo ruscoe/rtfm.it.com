@@ -408,6 +408,34 @@ section {
   margin-bottom: $spacing-md;
 }
 
+// Service Icon
+.service-icon {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // Alternate icon position on every other service
+  .grid .service-icon:first-child {
+    order: -1;
+  }
+}
+
+// Service Section
+.service-section {
+  margin-top: 64px;
+  padding-top: 64px;
+  border-top: 2px solid #333333;
+
+  &:first-of-type {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
+}
+
 // Footer
 footer {
   background-color: #000000;
@@ -512,7 +540,11 @@ footer {
 
 // Mobile utilities
 @media (max-width: $tablet) {
-  img[src*="bolt.png"] {
+  .header-decor {
+    display: none !important;
+  }
+
+  .service-icon {
     display: none !important;
   }
 }

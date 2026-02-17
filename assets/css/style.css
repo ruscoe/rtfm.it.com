@@ -365,6 +365,29 @@ section.alt-bg {
   margin-bottom: 24px;
 }
 
+.service-icon {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-icon .grid .service-icon:first-child {
+  order: -1;
+}
+
+.service-section {
+  margin-top: 64px;
+  padding-top: 64px;
+  border-top: 2px solid #333333;
+}
+.service-section:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
 footer {
   background-color: #000000;
   color: #cccccc;
@@ -461,7 +484,10 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  img[src*="bolt.png"] {
+  .header-decor {
+    display: none !important;
+  }
+  .service-icon {
     display: none !important;
   }
 }
