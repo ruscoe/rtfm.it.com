@@ -1,0 +1,49 @@
+// Color Variables
+$primary-color: #cc3333;
+$primary-dark: #992222;
+$secondary-color: #cccccc;
+$accent-color: #666666;
+$text-dark: #0a0a0a;
+$text-light: #999999;
+$bg-light: #1a1a1a;
+$bg-white: #0f0f0f;
+$border-gray: #333333;
+$rust-red: #8b3a3a;
+$dirty-white: #d4d4d4;
+$dark-gray: #2a2a2a;
+
+// Font Variables
+$font-primary: 'Arial', 'Helvetica Neue', sans-serif;
+$font-secondary: 'Courier New', monospace;
+
+// Font Sizes
+$font-size-base: 16px;
+$font-size-small: 14px;
+$font-size-large: 18px;
+$font-size-h1: 48px;
+$font-size-h2: 36px;
+$font-size-h3: 28px;
+$font-size-h4: 22px;
+
+// Spacing
+$spacing-xs: 8px;
+$spacing-sm: 16px;
+$spacing-md: 24px;
+$spacing-lg: 32px;
+$spacing-xl: 48px;
+$spacing-xxl: 64px;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-smooth: 0.3s ease-in-out;
+
+// Border Radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+// Breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+$large: 1440px;
