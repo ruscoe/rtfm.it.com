@@ -21,3 +21,5 @@ The output of SCSS files is to be compiled into the directory: assets/css
 JavaScript files are to be created in the directory: assets/javascript
 
 Images are to be stored in the directory: assets/images
+
+Individual pages are to be created in a new directory containing an index.html file. For example, an "About" page would be created as about/index.html
