@@ -260,6 +260,11 @@ nav a:hover:after {
 .hero h1 {
   color: #cc3333;
 }
+.hero p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .hero .subtitle {
   font-size: 18px;
   color: #ffffff;

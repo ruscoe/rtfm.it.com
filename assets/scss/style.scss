@@ -294,6 +294,12 @@ nav {
     color: $primary-color;
   }
 
+  p {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .subtitle {
     font-size: $font-size-large;
     color: #ffffff;
