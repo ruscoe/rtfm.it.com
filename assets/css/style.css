@@ -377,6 +377,11 @@ section.alt-bg {
   order: -1;
 }
 
+.service-icon-content {
+  font-size: 80px;
+  text-align: center;
+}
+
 .service-section {
   margin-top: 64px;
   padding-top: 64px;
