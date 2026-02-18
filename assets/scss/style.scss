@@ -499,6 +499,12 @@ footer {
   padding-top: $spacing-md;
   margin-top: $spacing-lg;
   text-align: center;
+
+  .footer-entity {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #666666;
+  }
 }
 
 // Utilities

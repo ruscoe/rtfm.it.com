@@ -445,6 +445,11 @@ footer a:hover {
   margin-top: 32px;
   text-align: center;
 }
+.footer-bottom .footer-entity {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #666666;
+}
 
 .text-center {
   text-align: center;
