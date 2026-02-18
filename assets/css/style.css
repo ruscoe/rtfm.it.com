@@ -487,6 +487,29 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.header-decor {
+  display: inline-block;
+  vertical-align: middle;
+}
+h1 .header-decor {
+  height: 40px;
+}
+h1 .header-decor[style*=margin-right] {
+  margin-right: 12px;
+}
+h1 .header-decor[style*=margin-left] {
+  margin-left: 12px;
+}
+h2 .header-decor {
+  height: 32px;
+}
+h2 .header-decor[style*=margin-right] {
+  margin-right: 12px;
+}
+h2 .header-decor[style*=margin-left] {
+  margin-left: 12px;
+}
+
 @media (max-width: 768px) {
   .header-decor {
     display: none !important;

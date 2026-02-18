@@ -543,6 +543,36 @@ footer {
   margin: 0 auto;
 }
 
+// Header Decor
+.header-decor {
+  display: inline-block;
+  vertical-align: middle;
+
+  h1 & {
+    height: 40px;
+
+    &[style*="margin-right"] {
+      margin-right: 12px;
+    }
+
+    &[style*="margin-left"] {
+      margin-left: 12px;
+    }
+  }
+
+  h2 & {
+    height: 32px;
+
+    &[style*="margin-right"] {
+      margin-right: 12px;
+    }
+
+    &[style*="margin-left"] {
+      margin-left: 12px;
+    }
+  }
+}
+
 // Mobile utilities
 @media (max-width: $tablet) {
   .header-decor {
